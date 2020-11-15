@@ -1,6 +1,6 @@
 {
   "name": "@easy-uniapp/api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy Uni-App Api",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "scripts": {
     "prepublish": "babel src -d dist"
   },
-  "main": "src/api.js",
+  "main": "dist/api.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.12.1",
