@@ -1,0 +1,25 @@
+{
+  "name": "@easy-uniapp/api",
+  "version": "1.0.0",
+  "description": "Easy Uni-App Api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-uniapp/api"
+  },
+  "bugs": {
+    "url": "https://github.com/easy-uniapp/api/issues"
+  },
+  "homepage": "https://github.com/easy-uniapp/api#readme",
+  "keywords": [
+    "easy",
+    "easy-uniapp",
+    "uniapp",
+    "uni-app",
+    "api"
+  ],
+  "author": "godtail <i@tech.top>",
+  "license": "MIT",
+  "main": "src/api.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
