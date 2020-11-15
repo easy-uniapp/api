@@ -1,6 +1,6 @@
 {
   "name": "@easy-uniapp/api",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Easy Uni-App Api",
   "repository": {
     "type": "git",
@@ -19,7 +19,14 @@
   ],
   "author": "godtail <i@tech.top>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "babel src -d dist"
+  },
   "main": "src/api.js",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1"
+  }
 }

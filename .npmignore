@@ -1,2 +1,6 @@
 .vscode
 .prettierrc
+node_modules
+src
+babel.config.json
+yarn.lock
