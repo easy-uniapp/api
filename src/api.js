@@ -1,8 +1,10 @@
 export default class Api {
-  config = {
-    baseUrl: '',
-    beforeRequest: async (requestOptions) => {},
-    beforeResponse: async (ret) => {},
+  constructor() {
+    this.config = {
+      baseUrl: '',
+      beforeRequest: async (requestOptions) => {},
+      beforeResponse: async (ret) => {},
+    }
   }
   setConfig(config) {
     this.config = Object.assign(this.config, config)
