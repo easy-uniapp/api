@@ -19,11 +19,5 @@
   ],
   "author": "godtail <i@tech.top>",
   "license": "MIT",
-  "main": "dist/api.js",
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/plugin-proposal-class-properties": "^7.12.1"
-  }
+  "main": "src/api.js"
 }

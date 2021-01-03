@@ -1,6 +1,6 @@
 export default class Api {
   constructor() {
-    this.config = {
+    config = {
       baseUrl: '',
       beforeRequest: async (requestOptions) => {},
       beforeResponse: async (ret) => {},
