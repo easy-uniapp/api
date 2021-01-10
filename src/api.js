@@ -9,17 +9,17 @@ export default class Api {
   setConfig(config) {
     this.config = Object.assign(this.config, config)
   }
-  async get(url, params, options) {
-    return await this.request({ method: 'GET', url, params, options })
+  async get(url, data, options) {
+    return await this.request({ method: 'GET', url, data, options })
   }
-  async post(url, params, options) {
-    return await this.request({ method: 'POST', url, params, options })
+  async post(url, data, options) {
+    return await this.request({ method: 'POST', url, data, options })
   }
-  async put(url, params, options) {
-    return await this.request({ method: 'PUT', url, params, options })
+  async put(url, data, options) {
+    return await this.request({ method: 'PUT', url, data, options })
   }
-  async delete(url, params, options) {
-    return await this.request({ method: 'DELETE', url, params, options })
+  async delete(url, data, options) {
+    return await this.request({ method: 'DELETE', url, data, options })
   }
   async request(requestOptions) {
     requestOptions.url = this.config.baseUrl + requestOptions.url
